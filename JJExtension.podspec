@@ -21,6 +21,6 @@ s.source_files = 'JJExtension/**/*.{h,m}'
 s.requires_arc = true
 #项目中用到库，多个用英文逗号隔开
 s.framework  = 'UIKit', 'Foundation'
-#依赖库，可指定版本，这里以AFNetworking为例，没有课不写
-s.dependency = 'Masonry'
+#依赖库，可指定版本，
+s.dependency 'Masonry'
 end
