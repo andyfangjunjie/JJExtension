@@ -4,7 +4,7 @@ s.name = 'JJExtension'
 #版本号
 s.version = '0.0.1'
 #支持平台
-s.platform = :ios, '7.0'
+s.platform = :ios, '8.0'
 #简介
 s.summary = '一个很好用的类别，类扩展'
 #主页
