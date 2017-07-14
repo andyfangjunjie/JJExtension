@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099F64D41F18979D00DB604B /* NSDate+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64811F18979D00DB604B /* NSDate+JJExtension.m */; };
+		099F64D51F18979D00DB604B /* NSFileManager+JJCaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64841F18979D00DB604B /* NSFileManager+JJCaches.m */; };
+		099F64D61F18979D00DB604B /* NSFileManager+JJDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64861F18979D00DB604B /* NSFileManager+JJDirectory.m */; };
+		099F64D71F18979D00DB604B /* NSFileManager+JJDiskSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64881F18979D00DB604B /* NSFileManager+JJDiskSpace.m */; };
+		099F64D81F18979D00DB604B /* NSObject+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F648B1F18979D00DB604B /* NSObject+JJExtension.m */; };
+		099F64D91F18979D00DB604B /* NSObject+JJInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F648D1F18979D00DB604B /* NSObject+JJInvocation.m */; };
+		099F64DA1F18979D00DB604B /* NSString+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64901F18979D00DB604B /* NSString+JJExtension.m */; };
+		099F64DB1F18979D00DB604B /* NSTimer+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64931F18979D00DB604B /* NSTimer+JJExtension.m */; };
+		099F64DC1F18979D00DB604B /* NSString+JJDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64961F18979D00DB604B /* NSString+JJDirectory.m */; };
+		099F64DD1F18979D00DB604B /* NSString+JJEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64981F18979D00DB604B /* NSString+JJEncryption.m */; };
+		099F64DE1F18979D00DB604B /* NSUserDefaults+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F649A1F18979D00DB604B /* NSUserDefaults+JJExtension.m */; };
+		099F64DF1F18979D00DB604B /* UIBarButtonItem+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F649D1F18979D00DB604B /* UIBarButtonItem+JJExtension.m */; };
+		099F64E01F18979D00DB604B /* JJBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64A01F18979D00DB604B /* JJBlockButton.m */; };
+		099F64E11F18979D00DB604B /* JJVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64A21F18979D00DB604B /* JJVerticalButton.m */; };
+		099F64E21F18979D00DB604B /* UIButton+JJCustomNavigaionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64A41F18979D00DB604B /* UIButton+JJCustomNavigaionBar.m */; };
+		099F64E31F18979D00DB604B /* UICollectionView+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64A71F18979D00DB604B /* UICollectionView+JJExtension.m */; };
+		099F64E41F18979D00DB604B /* UIColor+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64AA1F18979D00DB604B /* UIColor+JJExtension.m */; };
+		099F64E51F18979D00DB604B /* UIFont+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64AD1F18979D00DB604B /* UIFont+JJExtension.m */; };
+		099F64E61F18979D00DB604B /* UIImage+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64B01F18979D00DB604B /* UIImage+JJExtension.m */; };
+		099F64E71F18979D00DB604B /* UINavigationController+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64B31F18979D00DB604B /* UINavigationController+JJExtension.m */; };
+		099F64E81F18979D00DB604B /* UIStoryboard+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64B61F18979D00DB604B /* UIStoryboard+JJExtension.m */; };
+		099F64E91F18979D00DB604B /* UITableView+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64B91F18979D00DB604B /* UITableView+JJExtension.m */; };
+		099F64EA1F18979D00DB604B /* UITextField+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64BC1F18979D00DB604B /* UITextField+JJExtension.m */; };
+		099F64EB1F18979D00DB604B /* JJPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64BF1F18979D00DB604B /* JJPlaceholderTextView.m */; };
+		099F64EC1F18979D00DB604B /* UIView+JJCircleCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64C21F18979D00DB604B /* UIView+JJCircleCorner.m */; };
+		099F64ED1F18979D00DB604B /* UIView+JJControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64C41F18979D00DB604B /* UIView+JJControls.m */; };
+		099F64EE1F18979D00DB604B /* UIView+JJControls_Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64C61F18979D00DB604B /* UIView+JJControls_Masonry.m */; };
+		099F64EF1F18979D00DB604B /* UIView+JJControls_Setter.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64C81F18979D00DB604B /* UIView+JJControls_Setter.m */; };
+		099F64F01F18979D00DB604B /* UIView+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64CA1F18979D00DB604B /* UIView+JJExtension.m */; };
+		099F64F11F18979D00DB604B /* UIView+JJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64CC1F18979D00DB604B /* UIView+JJFrame.m */; };
+		099F64F21F18979D00DB604B /* UIView+JJUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64CE1F18979D00DB604B /* UIView+JJUIViewController.m */; };
+		099F64F31F18979D00DB604B /* UIView+JJXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64D01F18979D00DB604B /* UIView+JJXib.m */; };
+		099F64F41F18979D00DB604B /* UIViewController+JJMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F64D31F18979D00DB604B /* UIViewController+JJMethodSwizzling.m */; };
 		09E21E201F177C4E00A06F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E1F1F177C4E00A06F1F /* main.m */; };
 		09E21E231F177C4E00A06F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E221F177C4E00A06F1F /* AppDelegate.m */; };
 		09E21E261F177C4E00A06F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E251F177C4E00A06F1F /* ViewController.m */; };
@@ -15,7 +48,7 @@
 		09E21E2E1F177C4E00A06F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E21E2C1F177C4E00A06F1F /* LaunchScreen.storyboard */; };
 		09E21E391F177C4E00A06F1F /* JJExtensionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E381F177C4E00A06F1F /* JJExtensionDemoTests.m */; };
 		09E21E441F177C4E00A06F1F /* JJExtensionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E431F177C4E00A06F1F /* JJExtensionDemoUITests.m */; };
-		09E21E561F177CBF00A06F1F /* NSDate+JJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E21E551F177CBF00A06F1F /* NSDate+JJExtension.m */; };
+		88B90DBC516AD8137430FD14 /* Pods_JJExtensionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E737D4FF2805F72D052A3E1 /* Pods_JJExtensionDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +69,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056A8000CCEAE763A428CCA8 /* Pods-JJExtensionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJExtensionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJExtensionDemo/Pods-JJExtensionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		099F647E1F18979D00DB604B /* JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJExtension.h; sourceTree = "<group>"; };
+		099F64801F18979D00DB604B /* NSDate+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JJExtension.h"; sourceTree = "<group>"; };
+		099F64811F18979D00DB604B /* NSDate+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JJExtension.m"; sourceTree = "<group>"; };
+		099F64831F18979D00DB604B /* NSFileManager+JJCaches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JJCaches.h"; sourceTree = "<group>"; };
+		099F64841F18979D00DB604B /* NSFileManager+JJCaches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JJCaches.m"; sourceTree = "<group>"; };
+		099F64851F18979D00DB604B /* NSFileManager+JJDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JJDirectory.h"; sourceTree = "<group>"; };
+		099F64861F18979D00DB604B /* NSFileManager+JJDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JJDirectory.m"; sourceTree = "<group>"; };
+		099F64871F18979D00DB604B /* NSFileManager+JJDiskSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+JJDiskSpace.h"; sourceTree = "<group>"; };
+		099F64881F18979D00DB604B /* NSFileManager+JJDiskSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+JJDiskSpace.m"; sourceTree = "<group>"; };
+		099F648A1F18979D00DB604B /* NSObject+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJExtension.h"; sourceTree = "<group>"; };
+		099F648B1F18979D00DB604B /* NSObject+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJExtension.m"; sourceTree = "<group>"; };
+		099F648C1F18979D00DB604B /* NSObject+JJInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJInvocation.h"; sourceTree = "<group>"; };
+		099F648D1F18979D00DB604B /* NSObject+JJInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJInvocation.m"; sourceTree = "<group>"; };
+		099F648F1F18979D00DB604B /* NSString+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJExtension.h"; sourceTree = "<group>"; };
+		099F64901F18979D00DB604B /* NSString+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJExtension.m"; sourceTree = "<group>"; };
+		099F64921F18979D00DB604B /* NSTimer+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JJExtension.h"; sourceTree = "<group>"; };
+		099F64931F18979D00DB604B /* NSTimer+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JJExtension.m"; sourceTree = "<group>"; };
+		099F64951F18979D00DB604B /* NSString+JJDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJDirectory.h"; sourceTree = "<group>"; };
+		099F64961F18979D00DB604B /* NSString+JJDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJDirectory.m"; sourceTree = "<group>"; };
+		099F64971F18979D00DB604B /* NSString+JJEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJEncryption.h"; sourceTree = "<group>"; };
+		099F64981F18979D00DB604B /* NSString+JJEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJEncryption.m"; sourceTree = "<group>"; };
+		099F64991F18979D00DB604B /* NSUserDefaults+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+JJExtension.h"; sourceTree = "<group>"; };
+		099F649A1F18979D00DB604B /* NSUserDefaults+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+JJExtension.m"; sourceTree = "<group>"; };
+		099F649C1F18979D00DB604B /* UIBarButtonItem+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JJExtension.h"; sourceTree = "<group>"; };
+		099F649D1F18979D00DB604B /* UIBarButtonItem+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JJExtension.m"; sourceTree = "<group>"; };
+		099F649F1F18979D00DB604B /* JJBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBlockButton.h; sourceTree = "<group>"; };
+		099F64A01F18979D00DB604B /* JJBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBlockButton.m; sourceTree = "<group>"; };
+		099F64A11F18979D00DB604B /* JJVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJVerticalButton.h; sourceTree = "<group>"; };
+		099F64A21F18979D00DB604B /* JJVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJVerticalButton.m; sourceTree = "<group>"; };
+		099F64A31F18979D00DB604B /* UIButton+JJCustomNavigaionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JJCustomNavigaionBar.h"; sourceTree = "<group>"; };
+		099F64A41F18979D00DB604B /* UIButton+JJCustomNavigaionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JJCustomNavigaionBar.m"; sourceTree = "<group>"; };
+		099F64A61F18979D00DB604B /* UICollectionView+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+JJExtension.h"; sourceTree = "<group>"; };
+		099F64A71F18979D00DB604B /* UICollectionView+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+JJExtension.m"; sourceTree = "<group>"; };
+		099F64A91F18979D00DB604B /* UIColor+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JJExtension.h"; sourceTree = "<group>"; };
+		099F64AA1F18979D00DB604B /* UIColor+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JJExtension.m"; sourceTree = "<group>"; };
+		099F64AC1F18979D00DB604B /* UIFont+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JJExtension.h"; sourceTree = "<group>"; };
+		099F64AD1F18979D00DB604B /* UIFont+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JJExtension.m"; sourceTree = "<group>"; };
+		099F64AF1F18979D00DB604B /* UIImage+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JJExtension.h"; sourceTree = "<group>"; };
+		099F64B01F18979D00DB604B /* UIImage+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JJExtension.m"; sourceTree = "<group>"; };
+		099F64B21F18979D00DB604B /* UINavigationController+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JJExtension.h"; sourceTree = "<group>"; };
+		099F64B31F18979D00DB604B /* UINavigationController+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JJExtension.m"; sourceTree = "<group>"; };
+		099F64B51F18979D00DB604B /* UIStoryboard+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+JJExtension.h"; sourceTree = "<group>"; };
+		099F64B61F18979D00DB604B /* UIStoryboard+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+JJExtension.m"; sourceTree = "<group>"; };
+		099F64B81F18979D00DB604B /* UITableView+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JJExtension.h"; sourceTree = "<group>"; };
+		099F64B91F18979D00DB604B /* UITableView+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JJExtension.m"; sourceTree = "<group>"; };
+		099F64BB1F18979D00DB604B /* UITextField+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JJExtension.h"; sourceTree = "<group>"; };
+		099F64BC1F18979D00DB604B /* UITextField+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JJExtension.m"; sourceTree = "<group>"; };
+		099F64BE1F18979D00DB604B /* JJPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJPlaceholderTextView.h; sourceTree = "<group>"; };
+		099F64BF1F18979D00DB604B /* JJPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJPlaceholderTextView.m; sourceTree = "<group>"; };
+		099F64C11F18979D00DB604B /* UIView+JJCircleCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJCircleCorner.h"; sourceTree = "<group>"; };
+		099F64C21F18979D00DB604B /* UIView+JJCircleCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJCircleCorner.m"; sourceTree = "<group>"; };
+		099F64C31F18979D00DB604B /* UIView+JJControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJControls.h"; sourceTree = "<group>"; };
+		099F64C41F18979D00DB604B /* UIView+JJControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJControls.m"; sourceTree = "<group>"; };
+		099F64C51F18979D00DB604B /* UIView+JJControls_Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJControls_Masonry.h"; sourceTree = "<group>"; };
+		099F64C61F18979D00DB604B /* UIView+JJControls_Masonry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJControls_Masonry.m"; sourceTree = "<group>"; };
+		099F64C71F18979D00DB604B /* UIView+JJControls_Setter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJControls_Setter.h"; sourceTree = "<group>"; };
+		099F64C81F18979D00DB604B /* UIView+JJControls_Setter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJControls_Setter.m"; sourceTree = "<group>"; };
+		099F64C91F18979D00DB604B /* UIView+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJExtension.h"; sourceTree = "<group>"; };
+		099F64CA1F18979D00DB604B /* UIView+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJExtension.m"; sourceTree = "<group>"; };
+		099F64CB1F18979D00DB604B /* UIView+JJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJFrame.h"; sourceTree = "<group>"; };
+		099F64CC1F18979D00DB604B /* UIView+JJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJFrame.m"; sourceTree = "<group>"; };
+		099F64CD1F18979D00DB604B /* UIView+JJUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJUIViewController.h"; sourceTree = "<group>"; };
+		099F64CE1F18979D00DB604B /* UIView+JJUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJUIViewController.m"; sourceTree = "<group>"; };
+		099F64CF1F18979D00DB604B /* UIView+JJXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJXib.h"; sourceTree = "<group>"; };
+		099F64D01F18979D00DB604B /* UIView+JJXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJXib.m"; sourceTree = "<group>"; };
+		099F64D21F18979D00DB604B /* UIViewController+JJMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJMethodSwizzling.h"; sourceTree = "<group>"; };
+		099F64D31F18979D00DB604B /* UIViewController+JJMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJMethodSwizzling.m"; sourceTree = "<group>"; };
 		09E21E1B1F177C4E00A06F1F /* JJExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E21E1F1F177C4E00A06F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09E21E211F177C4E00A06F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,9 +153,8 @@
 		09E21E3F1F177C4E00A06F1F /* JJExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJExtensionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E21E431F177C4E00A06F1F /* JJExtensionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJExtensionDemoUITests.m; sourceTree = "<group>"; };
 		09E21E451F177C4E00A06F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09E21E521F177C8B00A06F1F /* JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJExtension.h; sourceTree = "<group>"; };
-		09E21E541F177CBF00A06F1F /* NSDate+JJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JJExtension.h"; sourceTree = "<group>"; };
-		09E21E551F177CBF00A06F1F /* NSDate+JJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JJExtension.m"; sourceTree = "<group>"; };
+		4E737D4FF2805F72D052A3E1 /* Pods_JJExtensionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJExtensionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAAEFF6DA9FA76F925A3D96 /* Pods-JJExtensionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJExtensionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJExtensionDemo/Pods-JJExtensionDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B90DBC516AD8137430FD14 /* Pods_JJExtensionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +183,233 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099F647D1F18979D00DB604B /* JJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				099F647E1F18979D00DB604B /* JJExtension.h */,
+				099F647F1F18979D00DB604B /* NSDate */,
+				099F64821F18979D00DB604B /* NSFileManager */,
+				099F64891F18979D00DB604B /* NSObject */,
+				099F648E1F18979D00DB604B /* NSString */,
+				099F64911F18979D00DB604B /* NSTimer */,
+				099F64941F18979D00DB604B /* NSUserDefaults */,
+				099F649B1F18979D00DB604B /* UIBarButtonItem */,
+				099F649E1F18979D00DB604B /* UIButton */,
+				099F64A51F18979D00DB604B /* UICollectionView */,
+				099F64A81F18979D00DB604B /* UIColor */,
+				099F64AB1F18979D00DB604B /* UIFont */,
+				099F64AE1F18979D00DB604B /* UIImage */,
+				099F64B11F18979D00DB604B /* UINavigationController */,
+				099F64B41F18979D00DB604B /* UIStoryboard */,
+				099F64B71F18979D00DB604B /* UITableView */,
+				099F64BA1F18979D00DB604B /* UITextFiled */,
+				099F64BD1F18979D00DB604B /* UITextView */,
+				099F64C01F18979D00DB604B /* UIView */,
+				099F64D11F18979D00DB604B /* UIViewController */,
+			);
+			name = JJExtension;
+			path = ../../JJExtension;
+			sourceTree = "<group>";
+		};
+		099F647F1F18979D00DB604B /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				099F64801F18979D00DB604B /* NSDate+JJExtension.h */,
+				099F64811F18979D00DB604B /* NSDate+JJExtension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		099F64821F18979D00DB604B /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				099F64831F18979D00DB604B /* NSFileManager+JJCaches.h */,
+				099F64841F18979D00DB604B /* NSFileManager+JJCaches.m */,
+				099F64851F18979D00DB604B /* NSFileManager+JJDirectory.h */,
+				099F64861F18979D00DB604B /* NSFileManager+JJDirectory.m */,
+				099F64871F18979D00DB604B /* NSFileManager+JJDiskSpace.h */,
+				099F64881F18979D00DB604B /* NSFileManager+JJDiskSpace.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		099F64891F18979D00DB604B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				099F648A1F18979D00DB604B /* NSObject+JJExtension.h */,
+				099F648B1F18979D00DB604B /* NSObject+JJExtension.m */,
+				099F648C1F18979D00DB604B /* NSObject+JJInvocation.h */,
+				099F648D1F18979D00DB604B /* NSObject+JJInvocation.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		099F648E1F18979D00DB604B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				099F648F1F18979D00DB604B /* NSString+JJExtension.h */,
+				099F64901F18979D00DB604B /* NSString+JJExtension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		099F64911F18979D00DB604B /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				099F64921F18979D00DB604B /* NSTimer+JJExtension.h */,
+				099F64931F18979D00DB604B /* NSTimer+JJExtension.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		099F64941F18979D00DB604B /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				099F64951F18979D00DB604B /* NSString+JJDirectory.h */,
+				099F64961F18979D00DB604B /* NSString+JJDirectory.m */,
+				099F64971F18979D00DB604B /* NSString+JJEncryption.h */,
+				099F64981F18979D00DB604B /* NSString+JJEncryption.m */,
+				099F64991F18979D00DB604B /* NSUserDefaults+JJExtension.h */,
+				099F649A1F18979D00DB604B /* NSUserDefaults+JJExtension.m */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		099F649B1F18979D00DB604B /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				099F649C1F18979D00DB604B /* UIBarButtonItem+JJExtension.h */,
+				099F649D1F18979D00DB604B /* UIBarButtonItem+JJExtension.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		099F649E1F18979D00DB604B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				099F649F1F18979D00DB604B /* JJBlockButton.h */,
+				099F64A01F18979D00DB604B /* JJBlockButton.m */,
+				099F64A11F18979D00DB604B /* JJVerticalButton.h */,
+				099F64A21F18979D00DB604B /* JJVerticalButton.m */,
+				099F64A31F18979D00DB604B /* UIButton+JJCustomNavigaionBar.h */,
+				099F64A41F18979D00DB604B /* UIButton+JJCustomNavigaionBar.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		099F64A51F18979D00DB604B /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				099F64A61F18979D00DB604B /* UICollectionView+JJExtension.h */,
+				099F64A71F18979D00DB604B /* UICollectionView+JJExtension.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		099F64A81F18979D00DB604B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				099F64A91F18979D00DB604B /* UIColor+JJExtension.h */,
+				099F64AA1F18979D00DB604B /* UIColor+JJExtension.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		099F64AB1F18979D00DB604B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				099F64AC1F18979D00DB604B /* UIFont+JJExtension.h */,
+				099F64AD1F18979D00DB604B /* UIFont+JJExtension.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		099F64AE1F18979D00DB604B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				099F64AF1F18979D00DB604B /* UIImage+JJExtension.h */,
+				099F64B01F18979D00DB604B /* UIImage+JJExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		099F64B11F18979D00DB604B /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				099F64B21F18979D00DB604B /* UINavigationController+JJExtension.h */,
+				099F64B31F18979D00DB604B /* UINavigationController+JJExtension.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		099F64B41F18979D00DB604B /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				099F64B51F18979D00DB604B /* UIStoryboard+JJExtension.h */,
+				099F64B61F18979D00DB604B /* UIStoryboard+JJExtension.m */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		099F64B71F18979D00DB604B /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				099F64B81F18979D00DB604B /* UITableView+JJExtension.h */,
+				099F64B91F18979D00DB604B /* UITableView+JJExtension.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		099F64BA1F18979D00DB604B /* UITextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				099F64BB1F18979D00DB604B /* UITextField+JJExtension.h */,
+				099F64BC1F18979D00DB604B /* UITextField+JJExtension.m */,
+			);
+			path = UITextFiled;
+			sourceTree = "<group>";
+		};
+		099F64BD1F18979D00DB604B /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				099F64BE1F18979D00DB604B /* JJPlaceholderTextView.h */,
+				099F64BF1F18979D00DB604B /* JJPlaceholderTextView.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		099F64C01F18979D00DB604B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				099F64C11F18979D00DB604B /* UIView+JJCircleCorner.h */,
+				099F64C21F18979D00DB604B /* UIView+JJCircleCorner.m */,
+				099F64C31F18979D00DB604B /* UIView+JJControls.h */,
+				099F64C41F18979D00DB604B /* UIView+JJControls.m */,
+				099F64C51F18979D00DB604B /* UIView+JJControls_Masonry.h */,
+				099F64C61F18979D00DB604B /* UIView+JJControls_Masonry.m */,
+				099F64C71F18979D00DB604B /* UIView+JJControls_Setter.h */,
+				099F64C81F18979D00DB604B /* UIView+JJControls_Setter.m */,
+				099F64C91F18979D00DB604B /* UIView+JJExtension.h */,
+				099F64CA1F18979D00DB604B /* UIView+JJExtension.m */,
+				099F64CB1F18979D00DB604B /* UIView+JJFrame.h */,
+				099F64CC1F18979D00DB604B /* UIView+JJFrame.m */,
+				099F64CD1F18979D00DB604B /* UIView+JJUIViewController.h */,
+				099F64CE1F18979D00DB604B /* UIView+JJUIViewController.m */,
+				099F64CF1F18979D00DB604B /* UIView+JJXib.h */,
+				099F64D01F18979D00DB604B /* UIView+JJXib.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		099F64D11F18979D00DB604B /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				099F64D21F18979D00DB604B /* UIViewController+JJMethodSwizzling.h */,
+				099F64D31F18979D00DB604B /* UIViewController+JJMethodSwizzling.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		09E21E121F177C4E00A06F1F = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +417,8 @@
 				09E21E371F177C4E00A06F1F /* JJExtensionDemoTests */,
 				09E21E421F177C4E00A06F1F /* JJExtensionDemoUITests */,
 				09E21E1C1F177C4E00A06F1F /* Products */,
+				68F538FAB3987F71A6BD837D /* Pods */,
+				35D9356993629B1E61294A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +435,7 @@
 		09E21E1D1F177C4E00A06F1F /* JJExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				09E21E511F177C6D00A06F1F /* JJExtension */,
+				099F647D1F18979D00DB604B /* JJExtension */,
 				09E21E211F177C4E00A06F1F /* AppDelegate.h */,
 				09E21E221F177C4E00A06F1F /* AppDelegate.m */,
 				09E21E241F177C4E00A06F1F /* ViewController.h */,
@@ -145,22 +475,21 @@
 			path = JJExtensionDemoUITests;
 			sourceTree = "<group>";
 		};
-		09E21E511F177C6D00A06F1F /* JJExtension */ = {
+		35D9356993629B1E61294A36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09E21E521F177C8B00A06F1F /* JJExtension.h */,
-				09E21E531F177CA700A06F1F /* NSDate */,
+				4E737D4FF2805F72D052A3E1 /* Pods_JJExtensionDemo.framework */,
 			);
-			path = JJExtension;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		09E21E531F177CA700A06F1F /* NSDate */ = {
+		68F538FAB3987F71A6BD837D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09E21E541F177CBF00A06F1F /* NSDate+JJExtension.h */,
-				09E21E551F177CBF00A06F1F /* NSDate+JJExtension.m */,
+				056A8000CCEAE763A428CCA8 /* Pods-JJExtensionDemo.debug.xcconfig */,
+				EBAAEFF6DA9FA76F925A3D96 /* Pods-JJExtensionDemo.release.xcconfig */,
 			);
-			path = NSDate;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +499,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09E21E481F177C4E00A06F1F /* Build configuration list for PBXNativeTarget "JJExtensionDemo" */;
 			buildPhases = (
+				60E89A4A4F6AA31890258892 /* [CP] Check Pods Manifest.lock */,
 				09E21E171F177C4E00A06F1F /* Sources */,
 				09E21E181F177C4E00A06F1F /* Frameworks */,
 				09E21E191F177C4E00A06F1F /* Resources */,
+				FD1CA0A558D1743BADF56FAF /* [CP] Embed Pods Frameworks */,
+				297611164192EF00C55C31DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,15 +623,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297611164192EF00C55C31DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJExtensionDemo/Pods-JJExtensionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E89A4A4F6AA31890258892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJExtensionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1CA0A558D1743BADF56FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JJExtensionDemo/Pods-JJExtensionDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJExtensionDemo/Pods-JJExtensionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09E21E171F177C4E00A06F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099F64E71F18979D00DB604B /* UINavigationController+JJExtension.m in Sources */,
+				099F64DB1F18979D00DB604B /* NSTimer+JJExtension.m in Sources */,
+				099F64EB1F18979D00DB604B /* JJPlaceholderTextView.m in Sources */,
+				099F64E41F18979D00DB604B /* UIColor+JJExtension.m in Sources */,
+				099F64F01F18979D00DB604B /* UIView+JJExtension.m in Sources */,
+				099F64EA1F18979D00DB604B /* UITextField+JJExtension.m in Sources */,
+				099F64D61F18979D00DB604B /* NSFileManager+JJDirectory.m in Sources */,
 				09E21E261F177C4E00A06F1F /* ViewController.m in Sources */,
+				099F64E11F18979D00DB604B /* JJVerticalButton.m in Sources */,
+				099F64F11F18979D00DB604B /* UIView+JJFrame.m in Sources */,
 				09E21E231F177C4E00A06F1F /* AppDelegate.m in Sources */,
-				09E21E561F177CBF00A06F1F /* NSDate+JJExtension.m in Sources */,
+				099F64EC1F18979D00DB604B /* UIView+JJCircleCorner.m in Sources */,
+				099F64DD1F18979D00DB604B /* NSString+JJEncryption.m in Sources */,
+				099F64E81F18979D00DB604B /* UIStoryboard+JJExtension.m in Sources */,
+				099F64E01F18979D00DB604B /* JJBlockButton.m in Sources */,
+				099F64F21F18979D00DB604B /* UIView+JJUIViewController.m in Sources */,
+				099F64E21F18979D00DB604B /* UIButton+JJCustomNavigaionBar.m in Sources */,
+				099F64D71F18979D00DB604B /* NSFileManager+JJDiskSpace.m in Sources */,
+				099F64D51F18979D00DB604B /* NSFileManager+JJCaches.m in Sources */,
+				099F64DA1F18979D00DB604B /* NSString+JJExtension.m in Sources */,
+				099F64D81F18979D00DB604B /* NSObject+JJExtension.m in Sources */,
+				099F64F41F18979D00DB604B /* UIViewController+JJMethodSwizzling.m in Sources */,
+				099F64D41F18979D00DB604B /* NSDate+JJExtension.m in Sources */,
+				099F64E51F18979D00DB604B /* UIFont+JJExtension.m in Sources */,
+				099F64F31F18979D00DB604B /* UIView+JJXib.m in Sources */,
+				099F64EF1F18979D00DB604B /* UIView+JJControls_Setter.m in Sources */,
+				099F64EE1F18979D00DB604B /* UIView+JJControls_Masonry.m in Sources */,
+				099F64E31F18979D00DB604B /* UICollectionView+JJExtension.m in Sources */,
+				099F64DC1F18979D00DB604B /* NSString+JJDirectory.m in Sources */,
+				099F64E61F18979D00DB604B /* UIImage+JJExtension.m in Sources */,
+				099F64D91F18979D00DB604B /* NSObject+JJInvocation.m in Sources */,
 				09E21E201F177C4E00A06F1F /* main.m in Sources */,
+				099F64DF1F18979D00DB604B /* UIBarButtonItem+JJExtension.m in Sources */,
+				099F64ED1F18979D00DB604B /* UIView+JJControls.m in Sources */,
+				099F64DE1F18979D00DB604B /* NSUserDefaults+JJExtension.m in Sources */,
+				099F64E91F18979D00DB604B /* UITableView+JJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +864,7 @@
 		};
 		09E21E491F177C4E00A06F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056A8000CCEAE763A428CCA8 /* Pods-JJExtensionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JJExtensionDemo/Info.plist;
@@ -457,6 +876,7 @@
 		};
 		09E21E4A1F177C4E00A06F1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAAEFF6DA9FA76F925A3D96 /* Pods-JJExtensionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JJExtensionDemo/Info.plist;
@@ -531,6 +951,7 @@
 				09E21E4A1F177C4E00A06F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09E21E4B1F177C4E00A06F1F /* Build configuration list for PBXNativeTarget "JJExtensionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +960,7 @@
 				09E21E4D1F177C4E00A06F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09E21E4E1F177C4E00A06F1F /* Build configuration list for PBXNativeTarget "JJExtensionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +969,7 @@
 				09E21E501F177C4E00A06F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

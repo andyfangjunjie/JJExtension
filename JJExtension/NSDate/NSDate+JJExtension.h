@@ -1,9 +1,9 @@
 //
 //  NSDate+JJExtension.h
-//  JJExtensionDemo
+//  JJFramework
 //
 //  Created by 房俊杰 on 2017/7/13.
-//  Copyright © 2017年 房俊杰. All rights reserved.
+//  Copyright © 2017年 上海涵予信息科技有限公司. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,11 +15,21 @@
  - JJDateFormatDay: 天
  */
 typedef NS_ENUM(NSInteger, JJDateFormat) {
-    JJDateFormatSecond,
+    JJDateFormatSecond = 0,
     JJDateFormatMinute,
     JJDateFormatDay
 };
 @interface NSDate (JJExtension)
+/**
+ 时间戳转换字符串
+ 
+ @param timestamp 时间戳
+ @param format 格式化
+ @return 转换字符串
+ */
++ (NSString *)jj_convertTimeStringWithTimestamp:(NSTimeInterval)timestamp
+                                         format:(JJDateFormat)format;
+
 
 /**
  时间戳转换字符串
@@ -29,18 +39,7 @@ typedef NS_ENUM(NSInteger, JJDateFormat) {
  @return 转换字符串
  */
 + (NSString *)jj_convertTimeStringWithTimestamp:(NSTimeInterval)timestamp
-                                      format:(JJDateFormat)format;
-
-
-/**
- 时间戳转换字符串
- 
- @param timestamp 时间戳
- @param format 格式化
- @return 转换字符串
- */
-+ (NSString *)jj_convertTimeStringWithTimestamp:(NSTimeInterval)timestamp
-                                stringFormat:(NSString *)format;
+                                   stringFormat:(NSString *)format;
 
 /**
  字符串转换时间戳
@@ -50,7 +49,7 @@ typedef NS_ENUM(NSInteger, JJDateFormat) {
  @return 时间戳
  */
 + (NSTimeInterval)jj_convertTimestampWithTimeString:(NSString *)timeString
-                                          format:(JJDateFormat)format;
+                                             format:(JJDateFormat)format;
 
 /**
  字符串转换时间戳
@@ -60,8 +59,5 @@ typedef NS_ENUM(NSInteger, JJDateFormat) {
  @return 时间戳
  */
 + (NSTimeInterval)jj_convertTimestampWithTimeString:(NSString *)timeString
-                                    stringFormat:(NSString *)format;
-
-
-
+                                       stringFormat:(NSString *)format;
 @end
