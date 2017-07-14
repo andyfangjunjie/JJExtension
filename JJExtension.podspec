@@ -22,5 +22,5 @@ s.requires_arc = true
 #项目中用到库，多个用英文逗号隔开
 s.frameworks  = 'UIKit', 'Foundation'
 #依赖库，可指定版本，
-s.dependency 'Masonry'
+s.dependency 'Masonry', '~> 1.0.2'
 end
